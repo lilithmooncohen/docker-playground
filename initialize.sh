@@ -8,4 +8,5 @@ docker exec -it dockerplayground_node2_1 /bin/sh -c "docker swarm join node1:237
 docker exec -it dockerplayground_node3_1 /bin/sh -c "docker swarm join node1:2377" && \
 sleep 1 && \
 docker exec -it dockerplayground_node1_1 /bin/sh -c "docker node ls" && \
-docker-compose logs -f
+sleep 3 && \
+docker exec -it dockerplayground_node1_1 /bin/sh
