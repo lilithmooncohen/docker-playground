@@ -1,6 +1,6 @@
 # Docker  Playground
 
-[![asciicast](https://asciinema.org/a/49639.png)](https://asciinema.org/a/49639)
+[![asciicast](https://asciinema.org/a/49680.png)](https://asciinema.org/a/49680)
 
 ## Run
 ```
