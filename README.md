@@ -15,3 +15,6 @@ docker service create --name redis redis:3.0.6
 docker service ls
 docker service update redis --replicas 3 --update-delay 10s --update-parallelism 1
 docker service update redis --image redis:3.0.7
+```
+
+Official Swarm Docs can be found here: https://docs.docker.com/engine/swarm/swarm-tutorial/
